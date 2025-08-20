@@ -1,18 +1,17 @@
 import { type JSX } from "react";
-import { Cart, SearchBox, Title } from "../index";
+import { BtnMenu, Cart, SearchBox, Title } from "../index";
 import { Link } from "react-router-dom";
 import { PiUserBold } from "react-icons/pi";
 
-export const Header = (): JSX.Element => {
+export const HeaderResponsive = (): JSX.Element => {
   return (
-    <header className=" max-lg:hidden">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          {/* Title logo Link */}
-          <Title />
-          {/* Search box */}
-          <SearchBox />
-        </div>
+    <header className="max-lg:flex hidden  flex-col items-center gap-4">
+      <div className="flex items-center justify-between w-full">
+        {/* Btn toggle Menu */}
+        <BtnMenu />
+
+        {/* Title logo Link */}
+        <Title />
         <div className="flex items-center gap-4">
           {/* Link My Account */}
           <Link
@@ -26,6 +25,7 @@ export const Header = (): JSX.Element => {
           </Link>
         </div>
       </div>
+      <SearchBox />
     </header>
   );
 };

@@ -1,11 +1,35 @@
 @import "tailwindcss";
 
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  background:
+    linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#A89C9F 45%,#A89C9F 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+    linear-gradient(135deg, transparent 0%,transparent 43%,#A89C9F 45%,#A89C9F 55%,transparent 57%,transparent 100%);
+}
 
 @theme {
     --font-Pelak: "Pelak" , sans-serif;
 
     --color-primary: #2D2728;
     --color-secondary:#FF6687;
+    --color-tertiary: #F6F6F6;
+    --color-quaternary: #FFF0F7;
+    --color-quinary: #A89C9F;
+    --color-senary: #FFF0F7;
 
     --text-xs: 14px ;  /* 0.875rem */  /* I`ll Change it and add costumise font size  */
+    --text-2xs:16; /* 1rem */ /* I`ll Change it and add costumise font size  */
+    --text-3xs: 18px; /* 1.125rem */ /* I`ll Change it and add costumise font size  */
+    --text-4xs: 20px; /* 1.25rem */ /* I`ll Change it and add costumise font size  */
+    --text-5xs: 24px; /* 1.5rem */ /* I`ll Change it and add costumise font size  */
+    --text-6xs: 28px; /* 1.75rem */ /* I`ll Change it and add costumise font size  */
+    --text-7xs: 32px; /* 2rem */ /* I`ll Change it and add costumise font size  */
+    --text-8xs: 36px; /* 2.25rem */ /* I`ll Change it and add costumise font size  */
+    --text-9xs: 40px; /* 2.5rem */ /* I`ll Change it and add costumise font size  */
+    --text-10xs: 48px; /* 3rem */ /* I`ll Change it and add costumise font size  */
+    --text-11xs: 64px; /* 4rem */ /* I`ll Change it and add costumise font size  */
 }

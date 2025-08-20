@@ -1,5 +1,5 @@
 import { type JSX } from "react";
-import { Header, Navigation } from "../index";
+import { Header, HeaderResponsive, Navigation } from "../index";
 
 export const HeaderContainer = (): JSX.Element => {
   return (
@@ -9,6 +9,8 @@ export const HeaderContainer = (): JSX.Element => {
         <Header />
         {/* Navigation Menu */}
         <Navigation />
+        {/* Header Responsive */}
+        <HeaderResponsive />
       </div>
     </div>
   );
