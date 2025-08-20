@@ -1,9 +1,10 @@
 import { type JSX } from "react";
+import { HeaderContainer } from "../index";
 
-export const Landing = () : JSX.Element => {
-    return (
-        <div>
-            <h1>Landing</h1>
-        </div>
-    )
-}
+export const Landing = (): JSX.Element => {
+  return (
+    <div>
+      <HeaderContainer />
+    </div>
+  );
+};

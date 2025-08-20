@@ -3,4 +3,9 @@
 
 @theme {
     --font-Pelak: "Pelak" , sans-serif;
+
+    --color-primary: #2D2728;
+    --color-secondary:#FF6687;
+
+    --text-xs: 14px ;  /* 0.875rem */  /* I`ll Change it and add costumise font size  */
 }
