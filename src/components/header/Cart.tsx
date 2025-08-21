@@ -7,8 +7,8 @@ export const Cart = (): JSX.Element => {
     <div className=" relative">
       <button
         type="button"
-        className=" bg-senary rounded-4xl p-4 flex items-center gap-2 cursor-pointer text-3xs font-medium">
-        <BsCart3 className="text-secondary font-bold" />
+        className=" bg-senary rounded-4xl p-4 flex items-center gap-2 cursor-pointer text-3xs font-medium max-lg:bg-secondary max-lg:text-white">
+        <BsCart3 className="text-secondary font-bold max-lg:text-white" />
         <span className="max-lg:hidden">سبد خرید</span>
         <FaChevronDown className="max-lg:hidden" />
       </button>

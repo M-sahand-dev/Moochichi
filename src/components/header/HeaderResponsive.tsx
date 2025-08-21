@@ -15,8 +15,8 @@ export const HeaderResponsive = (): JSX.Element => {
         <div className="flex items-center gap-4">
           {/* Link My Account */}
           <Link
-            to="/my-account"
-            className="bg-secondary p-4 rounded-full grid place-items-center text-white  text-4xs">
+            to="/"
+            className="bg-secondary p-4 rounded-full grid place-items-center text-white  text-4xs max-sm:hidden max-lg:bg-white max-lg:border max-lg:text-primary max-lg:border-primary">
             <PiUserBold className="w-5 h-5" />
           </Link>
           {/* Btn Cart */}
